@@ -1,6 +1,6 @@
 # ============================================================
 #  stop-p2p-node.ps1 — 让你的 Windows 停止充当传递优化 P2P 节点
-#  原理与实测背景见: https://github.com/tian-yu200/windows-do-expose
+#  原理与实测背景见: https://github.com/tian-yu200/microsoft-bandwidth-vampire
 #
 #  用法: 以管理员身份运行  powershell -ExecutionPolicy Bypass -File .\stop-p2p-node.ps1
 #  撤销: 删除注册表值 DODownloadMode, 或将其改回 2 (默认互联网模式)
